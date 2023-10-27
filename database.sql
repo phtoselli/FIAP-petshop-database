@@ -1,0 +1,10 @@
+CREATE DATABASE petshop;
+
+USE petshop;
+
+CREATE TABLE pets(
+  id NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  pet_type VARCHAR(30),
+  pet_name VARCHAR(30),
+  pet_age INT
+);
