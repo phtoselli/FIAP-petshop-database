@@ -162,3 +162,4 @@ while connection:
       input("Digite um número entre 0 e 6.")
 else:
   print("Obrigado!")
+cl
